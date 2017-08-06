@@ -1,0 +1,15 @@
+.nav{
+	display:none;
+}
+.weekSon{
+	width:50%;
+}
+.insideSon{
+	@extend .weekSon;
+}
+.exploreSon{
+	@extend .weekSon;
+}
+.aniSon{
+	background-size:cover;
+}

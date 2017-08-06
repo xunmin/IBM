@@ -1,0 +1,99 @@
+/*nav*/
+.nav{
+	display:none;
+}
+.market{
+	display:none;
+}
+.searchBox{
+	border:none;
+	input{
+		display:none;
+	}
+}
+.search{
+	display:block;
+	float:right;
+}
+
+
+
+/*banner*/
+#banner{
+	background-size:contain;
+}
+.banlayout{
+	padding:200px 10px 80px;
+}
+.bannerSon{
+	width:520px;
+}
+
+
+
+/*week ,inside,explore*/
+.weekSon{
+	width:100%;
+}
+.insideSon{
+	@extend .weekSon;
+}
+.exploreSon{
+	@extend .weekSon;
+}
+
+
+
+
+/*business ,help,about*/
+.busSon1{
+	width:100%;
+}
+.busSon{
+	width:100%;
+}
+.helpSon1{
+	width:100%;
+}
+.helpSon{
+	width:100%;
+}
+.aboutSon{
+	width:100%;
+}
+
+/*animail*/
+.animail{
+
+	background-size:contain;
+}
+.aniSon{
+	width:520px;
+	padding:220px 10px 68.3px;
+	span{
+		color:white;
+	}
+}
+.anih3{
+	color:white;
+	}
+.aniFont{
+	color:white;
+}
+
+
+
+/*footer*/
+.select{
+	display:none;
+}
+.footLayout{
+	border-top:none;
+	ul{
+		display:none;
+	}
+}
+.login{
+	float:left;
+}
+
